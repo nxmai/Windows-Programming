@@ -1,0 +1,14 @@
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\InspirationalQuotes\bin\Release\InspirationalQuotes.exe.config
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\InspirationalQuotes\bin\Release\InspirationalQuotes.exe
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\InspirationalQuotes\bin\Release\InspirationalQuotes.pdb
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\InspirationalQuotes\obj\Release\InspirationalQuotes.csprojAssemblyReference.cache
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\InspirationalQuotes\obj\Release\MainWindow.g.cs
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\InspirationalQuotes\obj\Release\App.g.cs
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\InspirationalQuotes\obj\Release\InspirationalQuotes_MarkupCompile.cache
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\InspirationalQuotes\obj\Release\InspirationalQuotes_MarkupCompile.lref
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\InspirationalQuotes\obj\Release\MainWindow.baml
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\InspirationalQuotes\obj\Release\InspirationalQuotes.g.resources
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\InspirationalQuotes\obj\Release\InspirationalQuotes.Properties.Resources.resources
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\InspirationalQuotes\obj\Release\InspirationalQuotes.csproj.GenerateResource.cache
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\InspirationalQuotes\obj\Release\InspirationalQuotes.exe
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\InspirationalQuotes\obj\Release\InspirationalQuotes.pdb

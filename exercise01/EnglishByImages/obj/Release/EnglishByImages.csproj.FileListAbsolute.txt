@@ -1,0 +1,14 @@
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\bin\Release\EnglishByImages.exe.config
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\bin\Release\EnglishByImages.exe
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\bin\Release\EnglishByImages.pdb
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Release\EnglishByImages.csprojAssemblyReference.cache
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Release\MainWindow.g.cs
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Release\App.g.cs
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Release\EnglishByImages_MarkupCompile.cache
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Release\EnglishByImages_MarkupCompile.lref
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Release\MainWindow.baml
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Release\EnglishByImages.g.resources
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Release\EnglishByImages.Properties.Resources.resources
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Release\EnglishByImages.csproj.GenerateResource.cache
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Release\EnglishByImages.exe
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Release\EnglishByImages.pdb

@@ -1,0 +1,14 @@
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\bin\Debug\EnglishByImages.exe.config
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\bin\Debug\EnglishByImages.exe
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\bin\Debug\EnglishByImages.pdb
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Debug\EnglishByImages.csprojAssemblyReference.cache
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Debug\MainWindow.g.cs
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Debug\App.g.cs
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Debug\EnglishByImages_MarkupCompile.cache
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Debug\EnglishByImages_MarkupCompile.lref
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Debug\MainWindow.baml
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Debug\EnglishByImages.g.resources
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Debug\EnglishByImages.Properties.Resources.resources
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Debug\EnglishByImages.csproj.GenerateResource.cache
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Debug\EnglishByImages.exe
+D:\Xuan Mai\HCMUS\5\Windows\18120056_w1\EnglishByImages\obj\Debug\EnglishByImages.pdb
