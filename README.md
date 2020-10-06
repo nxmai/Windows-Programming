@@ -1,2 +1,2 @@
 # Windows-Programming
-Windows Programming - a course in HCMUS University
+Windows Programming - a course in HCMUS
