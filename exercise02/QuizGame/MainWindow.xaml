@@ -1,0 +1,38 @@
+﻿<Window x:Class="QuizGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuizGame"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="650">
+    <Canvas>
+        <Image Name="QImage"  Height="262" Canvas.Left="50" Canvas.Top="26" 
+               Width="545"/>
+        <TextBlock  Name="QTextBlock" Canvas.Left="50" Canvas.Top="314" 
+               Height="44" Width="545" TextAlignment="Center"
+               FontWeight="Bold" FontSize="15"
+               TextWrapping="Wrap"/>
+        <Button Content="Button1" Canvas.Left="67" Canvas.Top="363" 
+                Width="230" Height="30" Tag="1" Name="Button1"
+                Click="CheckAnswerEvent"/>
+        <Button Content="Button2" Canvas.Left="342" Canvas.Top="363" 
+                Width="230" Height="30" Tag="2" Name="Button2"
+                Click="CheckAnswerEvent"/>
+        <Label Content="Số câu hiện tại: " Height="30" Canvas.Left="88" 
+               Canvas.Top="412" FontWeight="Bold"
+               Width="101"/>
+        <Label Canvas.Left="213" Name="numLabel"
+                   Canvas.Top="412" Height="30" FontWeight="Bold"/>
+        <Label Content="Số điểm hiện tại: " Canvas.Left="367" Canvas.Top="412" 
+               Width="112" Height="30" FontWeight="Bold"/>
+        <Label Canvas.Left="499" Canvas.Top="412" Height="30"
+               Name="scoreLabel" FontWeight="Bold"/>
+        <Label  Canvas.Left="297" Canvas.Top="430"
+               FontWeight="Bold" Name="timerLabel" Height="31"/>
+
+
+
+
+    </Canvas>
+</Window>
