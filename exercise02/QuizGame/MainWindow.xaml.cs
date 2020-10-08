@@ -36,7 +36,7 @@ namespace QuizGame
 
         //if more than 30s that you dont have the answer, the program will pick the next question and you dont have any score
         private DispatcherTimer _timer;
-        int time = 4;
+        int time = 30;
 
         public MainWindow()
         {
@@ -101,7 +101,7 @@ namespace QuizGame
 
         private void CountDown()
         {
-            time = 4;
+            time = 30; 
             _timer = new DispatcherTimer();
             _timer.Interval = new TimeSpan(0, 0, 1);
             _timer.Tick += Timer_Tick;

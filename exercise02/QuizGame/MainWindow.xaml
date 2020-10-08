@@ -105,9 +105,9 @@
         <Label Canvas.Left="499" Canvas.Top="412" Height="30"
                Name="scoreLabel" FontWeight="Bold" FontSize="14"/>
 
-        <Label  Canvas.Left="23"
+        <Label  Canvas.Left="10"
                FontWeight="Bold" Name="timerLabel" Height="44"
-                FontSize="30" Width="65" />
+                FontSize="30" Width="63" />
 
 
 
