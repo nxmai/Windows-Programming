@@ -26,14 +26,17 @@ namespace QuizGame
         int score = 0;
         int totalQuestion = 30;
         int numberOfQuestionInRound = 10;
-        int correctAnswer;
+        int correctAnswer;              //a flag to save correct answer (1 or 2) of the question for checking with tag in button
 
         public Random _rng = new Random();
-        int number;
+        int number;     //random a new question number
+
+        //array to check that there is no repeat of 1 number of question in 1 round
         int[] checkArray = new int[31];
 
+        //if more than 30s that you dont have the answer, the program will pick the next question and you dont have any score
         private DispatcherTimer _timer;
-        int time = 10;
+        int time = 4;
 
         public MainWindow()
         {
@@ -46,6 +49,7 @@ namespace QuizGame
 
             showQuestion(1);
             checkArray[1] = 1;
+
             numLabel.Content = numberOfQuestion;
             numberOfQuestion++;
             scoreLabel.Content = score;
@@ -54,11 +58,8 @@ namespace QuizGame
 
         private void CheckAnswerEvent(object sender, RoutedEventArgs e)
         {
-           
-
             var senderOjb = (Button)sender;
             int buttonTag = Convert.ToInt32(senderOjb.Tag);  //save button Tag (when user click to the button)
-
 
             do
             {
@@ -67,29 +68,40 @@ namespace QuizGame
             while (checkArray[number] == 1);
             checkArray[number] = 1;
 
-
+            //if you have a correct answer, you have 1 point
             if (buttonTag == correctAnswer)
             {
                 score++;
             }
 
+            _timer.Stop();
+
+            //1 round only have 10 question
+            if (numberOfQuestion > numberOfQuestionInRound)
+            {
+                scoreLabel.Content = score;
+                EndGame();
+                return;
+            }
+
+            //display number of question and score at that time
             numLabel.Content = numberOfQuestion;
             scoreLabel.Content = score;
 
-            _timer.Stop();
-            if (numberOfQuestion <= numberOfQuestionInRound)
-            {
-                showQuestion(number);
-                numberOfQuestion++;
-            }
-            else
-                MessageBox.Show("you win");
+            //show question
+            showQuestion(number);
+            numberOfQuestion++;
+        }
 
+        private void EndGame()
+        {
+            string res = "Số điểm của bạn là: " +score;
+            MessageBox.Show(res);
         }
 
         private void CountDown()
         {
-            time = 10;
+            time = 4;
             _timer = new DispatcherTimer();
             _timer.Interval = new TimeSpan(0, 0, 1);
             _timer.Tick += Timer_Tick;
@@ -106,7 +118,7 @@ namespace QuizGame
             else
             {
                 _timer.Stop();
-                //MessageBox.Show("boww");
+
                 do
                 {
                     number = _rng.Next(1, totalQuestion);
@@ -114,17 +126,17 @@ namespace QuizGame
                 while (checkArray[number] == 1);
                 checkArray[number] = 1;
 
+                if (numberOfQuestion > numberOfQuestionInRound)         //case: the last question and time out
+                {
+                    EndGame();
+                    return;
+                }
+
                 numLabel.Content = numberOfQuestion;
                 scoreLabel.Content = score;
 
-
-                if (numberOfQuestion <= numberOfQuestionInRound)
-                {
-                    showQuestion(number);
-                    numberOfQuestion++;
-                }
-                else
-                    MessageBox.Show("you win");
+                showQuestion(number);
+                numberOfQuestion++;
             }
         }
 
@@ -145,6 +157,7 @@ namespace QuizGame
 
             string imgName;
 
+            //30 question in here
             switch (num)
             {
                 case 1:
@@ -387,7 +400,7 @@ namespace QuizGame
                     Button2.Content = "Salazar Slytherin";
 
                     QTextBlock.Text = "Thành viên sáng lập nào của Hogwarts lập luận rằng trường chỉ nên phục vụ cho những người thuần chủng?";
-                    correctAnswer = 1;
+                    correctAnswer = 2;
                     break;
 
                 case 23:
@@ -479,9 +492,5 @@ namespace QuizGame
                     break;
             }
         }
-
-
-
-
     }
 }

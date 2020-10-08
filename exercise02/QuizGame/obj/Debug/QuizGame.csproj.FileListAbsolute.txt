@@ -12,3 +12,17 @@ D:\Xuan Mai\HCMUS\5\Windows\BT2\exercise02\QuizGame\obj\Debug\QuizGame.Propertie
 D:\Xuan Mai\HCMUS\5\Windows\BT2\exercise02\QuizGame\obj\Debug\QuizGame.csproj.GenerateResource.cache
 D:\Xuan Mai\HCMUS\5\Windows\BT2\exercise02\QuizGame\obj\Debug\QuizGame.exe
 D:\Xuan Mai\HCMUS\5\Windows\BT2\exercise02\QuizGame\obj\Debug\QuizGame.pdb
+D:\Xuan Mai\HCMUS\5\Windows\Windows-Programming\exercise02\QuizGame\bin\Debug\QuizGame.exe.config
+D:\Xuan Mai\HCMUS\5\Windows\Windows-Programming\exercise02\QuizGame\bin\Debug\QuizGame.exe
+D:\Xuan Mai\HCMUS\5\Windows\Windows-Programming\exercise02\QuizGame\bin\Debug\QuizGame.pdb
+D:\Xuan Mai\HCMUS\5\Windows\Windows-Programming\exercise02\QuizGame\obj\Debug\QuizGame.csprojAssemblyReference.cache
+D:\Xuan Mai\HCMUS\5\Windows\Windows-Programming\exercise02\QuizGame\obj\Debug\MainWindow.g.cs
+D:\Xuan Mai\HCMUS\5\Windows\Windows-Programming\exercise02\QuizGame\obj\Debug\App.g.cs
+D:\Xuan Mai\HCMUS\5\Windows\Windows-Programming\exercise02\QuizGame\obj\Debug\QuizGame_MarkupCompile.cache
+D:\Xuan Mai\HCMUS\5\Windows\Windows-Programming\exercise02\QuizGame\obj\Debug\QuizGame_MarkupCompile.lref
+D:\Xuan Mai\HCMUS\5\Windows\Windows-Programming\exercise02\QuizGame\obj\Debug\MainWindow.baml
+D:\Xuan Mai\HCMUS\5\Windows\Windows-Programming\exercise02\QuizGame\obj\Debug\QuizGame.g.resources
+D:\Xuan Mai\HCMUS\5\Windows\Windows-Programming\exercise02\QuizGame\obj\Debug\QuizGame.Properties.Resources.resources
+D:\Xuan Mai\HCMUS\5\Windows\Windows-Programming\exercise02\QuizGame\obj\Debug\QuizGame.csproj.GenerateResource.cache
+D:\Xuan Mai\HCMUS\5\Windows\Windows-Programming\exercise02\QuizGame\obj\Debug\QuizGame.exe
+D:\Xuan Mai\HCMUS\5\Windows\Windows-Programming\exercise02\QuizGame\obj\Debug\QuizGame.pdb
